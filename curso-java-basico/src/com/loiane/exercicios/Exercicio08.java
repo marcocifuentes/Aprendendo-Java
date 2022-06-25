@@ -21,8 +21,6 @@ public class Exercicio08 {
 		
 		System.out.println("Total salario no mes: " + valorHora * horasTrabalhadas);
 		
-
-
 	}
 
 }
