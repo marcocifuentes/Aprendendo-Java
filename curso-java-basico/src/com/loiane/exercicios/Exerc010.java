@@ -6,7 +6,8 @@ import java.util.Scanner;
  * Faça um Programa que peça a temperatura em graus Celsius, 
  * transforme e mostre em graus Fahrenheit.
  */
-public class Exercicio10 {
+
+public class Exerc010 {
 
 	public static void main(String[] args) {
 

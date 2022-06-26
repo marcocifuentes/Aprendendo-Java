@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
  */
-public class Exercicio06 {
+public class Exerc006 {
 
 	public static void main(String[] args) {
 		

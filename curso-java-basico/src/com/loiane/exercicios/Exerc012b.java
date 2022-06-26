@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Para mulheres: (62.1*h) - 44.7
  */
 
-public class Exercicio12b {
+public class Exerc012b {
 
 	public static void main(String[] args) {
 

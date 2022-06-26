@@ -11,7 +11,7 @@ import java.util.Scanner;
  * que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
  */
 
-public class ExercicioOmitido {
+public class Exerc015 {
 
 	public static void main(String[] args) {
 

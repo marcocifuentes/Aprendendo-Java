@@ -7,7 +7,7 @@ import java.util.Scanner;
  * usando a seguinte fórmula: (72.7*altura) - 58
  */
 
-public class Exercicio12a {
+public class Exerc012a {
 
 	public static void main(String[] args) {
 

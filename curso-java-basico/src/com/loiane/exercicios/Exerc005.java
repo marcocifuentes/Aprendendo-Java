@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Faça um Programa que converta metros para centímetros.
  */
 
-public class Exercicio05 {
+public class Exerc005 {
 
 	public static void main(String[] args) {
 

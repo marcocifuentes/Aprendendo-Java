@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Faça um Programa que peça as 4 notas bimestrais e mostre a média.
  */
 
-public class Exercicio04 {
+public class Exerc004 {
 
 	public static void main(String[] args) {
 		

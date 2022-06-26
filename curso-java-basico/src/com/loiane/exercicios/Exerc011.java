@@ -9,7 +9,7 @@ import java.util.Scanner;
  * c. o terceiro elevado ao cubo.
  */
 
-public class Exercicio11 {
+public class Exerc011 {
 
 	public static void main(String[] args) {
 

@@ -3,9 +3,10 @@ package com.loiane.exercicios;
 /*
 *Faça um Programa que peça dois números e imprima a soma.
 * */
+
 import java.util.Scanner;
 
-public class Exercicio03 {
+public class Exerc003 {
 
 	public static void main(String[] args) {
 
