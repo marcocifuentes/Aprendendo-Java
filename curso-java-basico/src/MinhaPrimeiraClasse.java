@@ -20,22 +20,22 @@ a igualdade. No caso do salário, também deve haver um espaço em branco após 
  */
 
 public class MinhaPrimeiraClasse {
-  public static void main(String[] args) throws IOException {
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    StringTokenizer st = new StringTokenizer(br.readLine());
-    int valor1 = Integer.parseInt(st.nextToken());
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int valor1 = Integer.parseInt(st.nextToken());
 
-    st = new StringTokenizer(br.readLine());
-    int valor2 = Integer.parseInt(st.nextToken());
+		st = new StringTokenizer(br.readLine());
+		int valor2 = Integer.parseInt(st.nextToken());
 
-   //escreva o seu código  
-    
-    st = new StringTokenizer(br.readLine());
-    double valor3 = Double.parseDouble(st.nextToken());
+		// escreva o seu código
 
-    double salario = valor2 * valor3;
-    System.out.println("Numero = " + valor1);
-    System.out.printf("Salario = U$ %.2f", salario);
-    
-  }
+		st = new StringTokenizer(br.readLine());
+		double valor3 = Double.parseDouble(st.nextToken());
+
+		double salario = valor2 * valor3;
+		System.out.println("Numero = " + valor1);
+		System.out.printf("Salario = U$ %.2f", salario);
+
+	}
 }

@@ -1,18 +1,27 @@
 // Abaixo segue um exemplo de código que você pode ou não utilizar
+
 import java.util.Scanner;
 
 public class Problem {
+
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-		int A, B, PROD;
-		
-		System.out.println("digite A e B");
-		A = sc.nextInt();
-		B = sc.nextInt();
-		 //TODO: Complete os espaços em branco com uma possível solução para o desafio 
-		PROD = A * B;
-		
-		System.out.println("PROD = " + PROD );
+
+		@SuppressWarnings("resource")
+		Scanner entrada = new Scanner(System.in);
+
+		String nome;
+
+		System.out.println("Digite seu nome ou s para sair: ");
+		nome = entrada.nextLine();
+
+		while (!nome.equalsIgnoreCase("s")) {
+
+			System.out.printf("Bem Vindo %s\n", nome);
+
+			System.out.println("Digite seu nome ou s para sair: ");
+			nome = entrada.nextLine();
+		}
+
+		System.out.println("Fim da execução!");
 	}
 }
