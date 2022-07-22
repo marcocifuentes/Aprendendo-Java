@@ -10,13 +10,14 @@ public class Problem {
 		Scanner entrada = new Scanner(System.in);
 
 		String nome;
+		String profissao = "desempregado";
 
 		System.out.println("Digite seu nome ou s para sair: ");
 		nome = entrada.nextLine();
 
 		while (!nome.equalsIgnoreCase("s")) {
 
-			System.out.printf("Bem Vindo %s\n", nome);
+			System.out.printf("Bem Vindo %s,%s \n", nome, profissao);
 
 			System.out.println("Digite seu nome ou s para sair: ");
 			nome = entrada.nextLine();

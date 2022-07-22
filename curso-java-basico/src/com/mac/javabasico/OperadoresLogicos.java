@@ -31,20 +31,22 @@ public class OperadoresLogicos {
 
 		// Exemplo de uso do Disjunçãoo exclusiva ^ (xor), onde só é verdade quando
 		// ambos são opostos/diferentes.
-		System.out.println("b1 ^ b3: " + (b1 ^ b3));
-		System.out.println("b4 ^ b1: " + (b4 ^ b1));
+		System.out.println("b1 ^ b3 : " + (b1 ^ b3));
+		System.out.println("b4 ^ b1 : " + (b4 ^ b1));
 
-		// Exemplo da negaçãoo; inverte o valor logico: True vira False e vice-versa.
-		System.out.println(!b1);
-		System.out.println(!b2);
+		// Exemplo de negação; inverte o valor lógico: True vira False e vice-versa.
+		System.out.println("!b1 : " + !b1);
+		System.out.println("!b2 : " + !b2);
 
 		// Comparando expressões
 		int i1 = 10;
 		int i2 = 5;
 		float f1 = 20f;
 		float f2 = 50f;
-		System.out.println("((i1 + i2) < (f2 - f1)) && true: " + (((i1 + i2) < (f2 - f1) && false)));
-		System.out.println("(i1 > i2) || (f2 < f1): " + ((i1 > i2) || (f2 < f1)));
+		System.out.println("((i1 + i2) < (f2 - f1)) && true: " + (((i1 + i2) < (f2 - f1) && true)));
+		System.out.println("((i1 + i2) < (f2 - f1)) && false: " + (((i1 + i2) < (f2 - f1) && false)));
+
+		System.out.println("(i1 > i2) || (f2 < f1)         : " + ((i1 > i2) || (f2 < f1)));
 
 		double salarioMensal = 11893.58d;
 		double mediaSalario = 10500d;

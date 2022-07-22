@@ -1,21 +1,3 @@
-/*import java.util.Scanner;
-
-public class Main {
-  public static void main(String[] args){
-    
-    Scanner leitor = new Scanner(System.in);
-    
-    System.out.println("Digite a: ");
-    int a = leitor.nextInt();
-    
-    System.out.println("Digite b: ");
-    int b = leitor.nextInt();
-    
-    int x = a + b;
-    System.out.println("X = " + x);
-    
-  }
-}*/
 
 import java.util.Scanner;
 
@@ -23,14 +5,27 @@ public class Main {
 	public static void main(String[] args) {
 
 		@SuppressWarnings("resource")
-		Scanner leitor = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Digite a e b");
-		int a = leitor.nextInt();
-		int b = leitor.nextInt();
+		int i = 0;
+		int idade = 0;
+		double soma = 0;
+		boolean valida = false;
 
-		int x = a + b;
-		System.out.println("X = " + x);
+		do {
+			System.out.println("Digite uma idade: ");
+			idade = scan.nextInt();
+
+			if (idade >= 0) {
+				soma += idade;
+				i++;
+			} else {
+				valida = true;
+			}
+
+		} while (!valida);
+
+		System.out.printf("Média de idades: %.2f ", (soma / i));
 
 	}
 }

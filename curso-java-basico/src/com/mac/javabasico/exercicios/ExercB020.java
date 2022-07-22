@@ -41,7 +41,7 @@ public class ExercB020 {
 		System.out.print("5)-Já trabalhou com a vítima? ");
 		String leitura5 = input.next();
 
-		System.out.println("");
+		System.out.println();
 
 		int contador = 0;
 

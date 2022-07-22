@@ -4,10 +4,24 @@ public class SequenciaEscape {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello WOrdl!");
+		// normal
+		System.out.println("Hello World!");
 		
-		// imprimindo texto com aspas
+		// usando aspas
 		System.out.println("\"Hello World!\"");
+		
+		// usando tabulaçãp horizontal
+		System.out.println("Nome\tCompleto");
+	
+		// usando newline
+		System.out.println("Primeira linha\nNova linha");
+				
+		// usando newline
+		System.out.println("Contrabarra\\");
+		
+		// usando newline
+		System.out.println("Apagando \bCom BackSpace");
+				
 		
 	}
 
